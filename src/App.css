@@ -8,8 +8,7 @@
 body {
   background-color: black;
   color: #f1f5f9;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .container {
@@ -55,12 +54,13 @@ body {
 }
 
 .card:hover {
+  cursor: pointer;
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(56, 189, 248, 0.4);
 }
 
 .card h2 {
-  color: grey;
+ color: #38bdf8;
   margin-bottom: 10px;
 }
 
